@@ -1,0 +1,78 @@
+
+
+.max-height {
+	height: 40%;
+}
+
+.background-comment {
+	background-image: linear-gradient(to top, rgb(150,150,150,.1), rgb(200,200,200,.1));
+}
+
+p, a {
+	font-size: .9em;
+}
+
+.col-none-lg {
+	display: none;
+}
+.perfil {
+	width: 80px;
+	height: 80px;
+}
+.mainPerfil {
+	width: 150px;
+	height: 150px;
+}
+
+@media(max-width: 1000px)
+
+{
+	.col-none {
+		display: none;
+	}
+	.col-none-lg {
+		display: block;
+	}
+	p, a, h3 {
+		font-size: 2em;
+	}
+
+	.btn, .placeholder {
+		font-size: 3em;
+	}
+
+	.placeholder-sm {
+		font-size: 2em;
+	}
+
+	input {
+		font-size: 1.5em;
+	}
+	sub, sup {
+		font-size: 1.2em;
+	}
+	.img-sm {
+		width: 100%;
+	}
+	.perfil {
+	width: 150px;
+	height: 150px;
+	}
+	.mainPerfil {
+	width: 150px;
+	height: 150px;
+	}
+	.modal-footer {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1030;
+	}
+
+
+}
+
+/*Posts*/
+
+
